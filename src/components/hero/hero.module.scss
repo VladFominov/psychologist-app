@@ -1,0 +1,57 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/placeholders' as *;
+
+.heroSection{
+    position: relative;
+    height: 480px; 
+}
+
+.imgOverlay{
+max-width:1600px;
+height: 480px;
+margin: 0 auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../../../public/images/heroImg.jpg');
+};
+
+.container {
+   
+    margin: 0 auto;
+    padding: 0 15px;
+   
+
+    @media screen and (min-width: 540px){
+        max-width: 540px;
+    }
+
+        @media screen and (min-width: 719.98px) {
+        width: 720px;
+        }
+
+
+        @media screen and (min-width: 1199.98px) {
+        width: 1200px;
+        }
+}
+
+.heroDataWrap{
+    position: absolute;
+    min-width: 350px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.heroTitle{
+    @extend  %default-title;
+    color: $secondary-color;
+
+    text-align: center;
+}
+
+.heroText{
+    @extend   %default-text;
+    color:$secondary-color;
+  
+}

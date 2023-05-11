@@ -1,0 +1,9 @@
+@use '../../styles/placeholders' as *;
+
+.cardTitleStyles{
+    @extend  %default-title;
+}
+
+.cardTextStyles{
+    @extend %default-text;
+}

@@ -1,0 +1,52 @@
+.footer{
+    background: #fff;
+}
+.container {
+   
+    margin: 0 auto;
+    padding: 0 15px;
+   
+
+    @media screen and (min-width: 540px){
+        max-width: 540px;
+    }
+
+        @media screen and (min-width: 719.98px) {
+        width: 720px;
+        }
+
+
+        @media screen and (min-width: 1199.98px) {
+        width: 1200px;
+        }
+}
+
+.footerContactsWrap{
+    margin-top: 15px;
+}
+
+.footerIconsWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+
+    .iconViber{
+        margin-right: 5px;
+        fill:#7360f2;
+    };
+    .iconTelegram{
+        margin-right: 5px;
+        fill: #0088cc ;
+    };
+    .iconWhatsApp{
+        margin-right: 5px;
+        fill: #075E54;
+    }
+
+}
+
+.iconsDiv{
+    padding: 5px;
+margin-bottom: 10px;
+}
