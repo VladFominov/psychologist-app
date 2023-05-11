@@ -1,6 +1,7 @@
 {
   "name": "psychologist-app",
   "version": "0.1.0",
+  "homepage": "https://vladfominov.github.io/psychologist-app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
