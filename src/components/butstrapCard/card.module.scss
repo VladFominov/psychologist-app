@@ -7,3 +7,11 @@
 .cardTextStyles{
     @extend %default-text;
 }
+
+.cardImgWrap{
+    position: relative;
+    overflow: "hidden";
+    min-height: 150px;
+    width: 100%;
+   
+}

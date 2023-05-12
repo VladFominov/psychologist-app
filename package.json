@@ -4,8 +4,6 @@
   "homepage": "https://vladfominov.github.io/psychologist-app/",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,7 +13,6 @@
     "bootstrap": "^4.6.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
-    "gh-pages": "^5.0.0",
     "jquery": "^3.6.4",
     "next": "13.3.4",
     "react": "18.2.0",
