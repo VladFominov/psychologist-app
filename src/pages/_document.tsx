@@ -1,7 +1,9 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
 
+
 export default function Document() {
+ 
   return (
     <Html lang="uk">
       <Head>
@@ -12,7 +14,7 @@ export default function Document() {
            </link>
           
       </Head>
-      <body>
+      <body >
         <Main />
         <NextScript />      
       </body>

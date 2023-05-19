@@ -12,8 +12,9 @@ import styles from './card.module.scss'
 const FetchCard: FC = () => {
   return (
     <>
+    {/* "card shadow-sm p-4 mb-4 mt-3 bg-white" */}
       {cardData.map(({ photo, title, description, index }) => (
-        <div className="card shadow-sm p-4 mb-4 mt-3 bg-white" key={index}>
+        <div className={`card shadow-sm p-4 mb-4 mt-3 bg-white ${styles.cardContainer}`} key={index}>
           <div className={styles.cardImgWrap}>
           <Image
             src={photo}

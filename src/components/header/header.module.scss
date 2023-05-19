@@ -4,21 +4,28 @@
 .header{
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    
     width: 100%;
     .isActive{
         color: yellowgreen;
     }
     a{
             display: inline-block;  
-        font-family: 'Permanent Marker', cursive;
+        @extend  %default-marker;
        padding: 15px;
         margin: 0 10px;
         transition: color .4s ease-in-out;
         &:hover{
             color: yellowgreen;
-        }
+        };
+
+        @media screen and (min-width: $desktop) {
+            font-size: 21px;
+            }
     }
+
+
 
 }
 
@@ -28,21 +35,30 @@
     padding: 0 15px;
    
 
-    @media screen and (min-width: 540px){
+    @media screen and (min-width: $mobile){
         max-width: 540px;
     }
 
-        @media screen and (min-width: 719.98px) {
+        @media screen and (min-width: $tablet) {
         width: 720px;
         }
 
 
-        @media screen and (min-width: 1199.98px) {
-        width: 1200px;
+        @media screen and (min-width: $desktop) {
+            max-width: 1400px;
         }
+}
+
+.headerLinksWrap{
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: space-between;
+        } 
 }
 
 .headerNavTextColor{
     @extend   %default-marker;
      color: 	 $secondary-color;
+
+    
 }

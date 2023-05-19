@@ -8,7 +8,10 @@ const Facility: FC = () => {
     <section>
       <div className={styles.container}>
       <h2 className={styles.facilityTitle}>Працюю з такими видами психологічних проблем:</h2>
-        <FetchCard />
+      <div className={styles.FetchCardWrap}>
+      <FetchCard />
+      </div>
+        
       </div>        
     </section>
   )

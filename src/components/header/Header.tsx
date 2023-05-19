@@ -9,12 +9,15 @@ const{pathname} = useRouter();
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-      <Link href="/" className={pathname === '/' ? styles.isActive : styles.headerNavTextColor}>
+        <div className={styles.headerLinksWrap}>
+        <Link href="/" className={pathname === '/' ? styles.isActive : styles.headerNavTextColor}>
         <span >
         Головна
         </span>        
         </Link>
       <Link href="/contacts" className={pathname === '/contacts' ? styles.isActive :  styles.headerNavTextColor}>Контакти</Link>
+        </div>
+      
       </div>
      
     </header>

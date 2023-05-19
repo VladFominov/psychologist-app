@@ -1,5 +1,13 @@
 @use '../../styles/placeholders' as *;
+@use '../../styles/variables.scss' as *;
 
+.cardContainer{
+    @media screen and (min-width: $desktop) {
+        width: 340px;
+        height: 460px;
+        margin: 0;
+    }
+}
 .cardTitleStyles{
     @extend  %default-title;
 }

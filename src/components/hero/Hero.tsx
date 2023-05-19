@@ -8,6 +8,9 @@ const Hero: FC = () => {
       <section className={styles.heroSection}>
         <div className={styles.imgOverlay}>
           <div className={styles.container}>
+            <div className={styles.positionContainer}>
+
+           
             <div className={styles.heroDataWrap}>
             <h1 className={styles.heroTitle}>
            Олексій Більский 
@@ -19,7 +22,8 @@ const Hero: FC = () => {
           <p className={styles.heroText}>         
             Магістр психології.
           </p>
-            </div>        
+            </div>    
+            </div>    
           </div>       
         </div>
       </section>
