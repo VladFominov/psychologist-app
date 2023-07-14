@@ -1,6 +1,8 @@
 import React, {FC} from 'react'
 import Image from "next/image";
 
+import styles from "./_carousel.module.scss"
+
 import diploma1 from '../../../public/images/diploma1.jpg'
 import diploma2 from '../../../public/images/diploma2.jpg'
 import diploma3 from '../../../public/images/diploma3.jpg'
@@ -16,13 +18,19 @@ const Carousel: FC= () => {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <Image src={diploma1} className="d-block w-100" width={300} height={200} alt="Your Image" />
+      <div className="d-block w-100 image-container" >
+      <Image src={diploma1} className={styles.img}  alt="Your Image" />
+      </div> 
     </div>
     <div className="carousel-item">
-      <Image src={diploma2} className="d-block w-100" width={300} height={200} alt="Your Image" />
+      <div className="d-block w-100 " >
+      <Image src={diploma2} className={styles.img}  width={300} height={200}  alt="Your Image" />
+      </div> 
     </div>
     <div className="carousel-item">
-      <Image src={diploma3} className="d-block w-100" width={300} height={200} alt="Your Image" />
+      <div className="d-block w-100 " >
+      <Image src={diploma3}  className={styles.img}  width={300} height={200}  alt="Your Image" />
+      </div> 
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">

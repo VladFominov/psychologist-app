@@ -5,14 +5,12 @@ import styles from "./hero.module.scss";
 const Hero: FC = () => {
   return (
     <>
-      <section className={styles.heroSection}>
+      <section className="relative">
         <div className={styles.imgOverlay}>
-          <div className={styles.container}>
-            <div className={styles.positionContainer}>
-
+          
            
-            <div className={styles.heroDataWrap}>
-            <h1 className={styles.heroTitle}>
+           <div className="absolute bottom-10 left-10 lg:left-20 lg:bottom-20 ">
+            <h1 className="text-3xl text-white md:mb-10">
            Олексій Більский 
           </h1>
           <p className={styles.heroText}>Практикуючий психолог – аддиктолог </p>
@@ -24,8 +22,8 @@ const Hero: FC = () => {
           </p>
             </div>    
             </div>    
-          </div>       
-        </div>
+                
+        
       </section>
     </>
   );

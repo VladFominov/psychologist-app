@@ -2,15 +2,11 @@
 @use '../../styles/placeholders' as *;
 
 .header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
     width: 100%;
     .isActive{
         color: yellowgreen;
     }
-    a{
+    span{
             display: inline-block;  
         @extend  %default-marker;
        padding: 15px;
@@ -19,42 +15,44 @@
         &:hover{
             color: yellowgreen;
         };
-
-        @media screen and (min-width: $desktop) {
-            font-size: 21px;
-            }
-    }
-
-
-
 }
 
-.container {
+// @media screen and (min-width: $desktop) {
+//     font-size: 21px;
+//     justify-content: flex-end;
+
+// }
+}
+
+// .container {
    
-    margin: 0 auto;
-    padding: 0 15px;
+//     margin: 0 auto;
+//     padding: 0 15px;
    
 
-    @media screen and (min-width: $mobile){
-        max-width: 540px;
-    }
+//     @media screen and (min-width: $mobile){
+//         background-color: red;
+//         max-width: 540px;
+//     }
 
-        @media screen and (min-width: $tablet) {
-        width: 720px;
-        }
+//         @media screen and (min-width: $tablet) {
+//             background-color: blue;
+//         width: 720px;
+//         }
 
 
-        @media screen and (min-width: $desktop) {
-            max-width: 1400px;
-        }
-}
+//         @media screen and (min-width: $desktop) {
+//             background-color: violet;
+//             max-width: 1400px;
+//         }
+// }
 
-.headerLinksWrap{
-    @media screen and (min-width: $tablet) {
-        display: flex;
-        justify-content: space-between;
-        } 
-}
+// .headerLinksWrap{
+//     @media screen and (min-width: $tablet) {
+//         display: flex;
+//         justify-content: space-between;
+//         } 
+// }
 
 .headerNavTextColor{
     @extend   %default-marker;
