@@ -24,13 +24,13 @@ body {
   .modal-open {
     overflow: hidden;
   }
-  background-color: #474853;
+  /* #474853 */
+  background-color: #232929;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  background-color: #474853;
-  
-}
+
 
 a {
   color: inherit;

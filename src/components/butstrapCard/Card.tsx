@@ -12,11 +12,12 @@ const FetchCard: FC = () => {
   const openModal = (modalInfo: string | undefined): void => {
     setSelectedModalInfo(modalInfo);
   };
+  // shadow-lg p-3 mb-5 bg-white rounded
   return (
     <>
       {cardData.map(({ photo, title, description, index, modalInfo }) => (
         <div
-          className={`card shadow-sm p-4 mb-4 mt-3 bg-white ${styles.cardContainer}`}
+          className={`card shadow-lg p-4 mb-1 mt-3 bg-white rounded lg:m-0 ${styles.cardContainer}`}
           key={index}
         >
           <div className={styles.cardImgWrap}>
@@ -43,7 +44,7 @@ const FetchCard: FC = () => {
 
             <button
               type="button"
-              className="btn bg-success text-white "
+              className="btn bg-success text-white opacity-75  "
               data-toggle="modal"
               data-target="#exampleModal"
               onClick={() => openModal(modalInfo)}

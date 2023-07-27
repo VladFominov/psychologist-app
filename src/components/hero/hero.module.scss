@@ -8,14 +8,9 @@ max-width:1600px;
 height: 480px;
 margin: 0 auto;
 background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+
 background-image: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../../public/images/heroImg.jpg');
 
-// @media screen and (min-width: 1023.98px) {
-//     background-size: contain;
-   
-// };
 }
 
 .heroTitle{

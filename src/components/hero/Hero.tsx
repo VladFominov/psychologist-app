@@ -3,13 +3,16 @@ import React, { FC } from "react";
 import styles from "./hero.module.scss";
 
 const Hero: FC = () => {
+  
   return (
     <>
+    
       <section className="relative">
-        <div className={styles.imgOverlay}>
+      <div
+           className={`bg-cover bg-center lg:bg-top ${styles.imgOverlay}`}
           
-           
-           <div className="absolute bottom-10 left-10 lg:left-20 lg:bottom-20 ">
+        >  
+           <div className="absolute bottom-10 left-10  lg:left-40 lg:bottom-40 ">
             <h1 className="text-3xl text-white md:mb-10">
            Олексій Більский 
           </h1>
@@ -20,11 +23,11 @@ const Hero: FC = () => {
           <p className={styles.heroText}>         
             Магістр психології.
           </p>
-            </div>    
-            </div>    
-                
-        
+            </div>
+            </div>   
+               
       </section>
+      
     </>
   );
 };

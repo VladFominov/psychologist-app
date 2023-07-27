@@ -1,53 +1,53 @@
-.footer{
-    background: #ffffffdb;
-    border-radius: 25px 25px 0 0;
-}
-.container {
+// .footer{
+//     background: #ffffffdb;
+//     border-radius: 25px 25px 0 0;
+// }
+// .container {
    
-    margin: 0 auto;
-    padding: 0 15px;
+//     margin: 0 auto;
+//     padding: 0 15px;
    
 
-    @media screen and (min-width: 540px){
-        max-width: 540px;
-    }
+//     @media screen and (min-width: 540px){
+//         max-width: 540px;
+//     }
 
-        @media screen and (min-width: 719.98px) {
-        width: 720px;
-        }
+//         @media screen and (min-width: 719.98px) {
+//         width: 720px;
+//         }
 
 
-        @media screen and (min-width: 1199.98px) {
-            max-width: 1400px;
-        }
-}
+//         @media screen and (min-width: 1199.98px) {
+//             max-width: 1400px;
+//         }
+// }
 
-.footerContactsWrap{
-    margin-top: 15px;
-}
+// .footerContactsWrap{
+//     margin-top: 15px;
+// }
 
-.footerIconsWrap{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 15px;
+// .footerIconsWrap{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+  
 
-    .iconViber{
-        margin-right: 5px;
-        fill:#7360f2;
-    };
-    .iconTelegram{
-        margin-right: 5px;
-        fill: #0088cc ;
-    };
-    .iconWhatsApp{
-        margin-right: 5px;
-        fill: #075E54;
-    }
+//     .iconViber{
+       
+//         fill:#7360f2;
+//     };
+//     .iconTelegram{
+        
+//         fill: #0088cc ;
+//     };
+//     .iconWhatsApp{
+        
+//         fill: #075E54;
+//     }
 
-}
+// }
 
-.iconsDiv{
-    padding: 5px;
-margin-bottom: 10px;
-}
+// .iconsDiv{
+//     padding: 5px;
+// margin-bottom: 10px;
+// }
