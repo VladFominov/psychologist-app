@@ -8,7 +8,7 @@ type CarouselProps = {
 
 const Carousel = ({ diplomasImg }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  console.log("currentIndex: ", currentIndex);
+  
 
   const goToPrevious = (): void => {
     const isFirstSlide = currentIndex === 0;

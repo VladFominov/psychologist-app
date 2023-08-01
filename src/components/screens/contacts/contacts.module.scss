@@ -1,22 +1,22 @@
 @use '../../../styles/variables.scss' as *;
 @use '../../../styles/placeholders' as *;
 
-.container { 
-    margin: 0 auto;
-    padding: 0 15px; 
+// .container { 
+//     margin: 0 auto;
+//     padding: 0 15px; 
 
-    @media screen and (min-width: $mobile){
-        max-width: 540px;
-    }
+//     @media screen and (min-width: $mobile){
+//         max-width: 540px;
+//     }
 
-        @media screen and (min-width: $tablet) {
-        width: 720px;
-        }
+//         @media screen and (min-width: $tablet) {
+//         width: 720px;
+//         }
 
-        @media screen and (min-width: $desktop) {
-            max-width: 1400px;
-        }
-}
+//         @media screen and (min-width: $desktop) {
+//             max-width: 1400px;
+//         }
+// }
 
 .contactsTitle{
     color: #fff;
