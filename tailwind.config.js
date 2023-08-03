@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        "110": "45rem",
+        "120": "55rem",
+      }
+    },
     container: {
       center: true,
       padding: {

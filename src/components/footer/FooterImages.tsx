@@ -7,7 +7,7 @@ type FooterImagesProps ={
 
 const FooterImages = ({ footerSliders }: FooterImagesProps ) => {
   return (
-    <ul className="relative w-36 h-20 lg:flex lg:w-96 lg:h-48">
+    <ul className="relative w-36 h-20 lg:flex lg:w-110 xl:w-120 lg:h-40 lg:flex-nowrap lg:gap-3">
       {footerSliders.map((item, i) => {
         return (
           <li

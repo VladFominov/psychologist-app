@@ -37,7 +37,7 @@ const Footer: FC = () => {
             </div>
           </address>
         </div>
-        <div className="relative mx-auto ">
+        <div className="relative mx-auto lg:my-auto	">
           <FooterImages footerSliders={sliders} />
           
         </div>
