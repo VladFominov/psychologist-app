@@ -12,26 +12,26 @@ const sliders = [
 const Footer: FC = () => {
   return (
     <div>
-      <footer className=" flex h-64 px-3 bg-slate-200  rounded-t-lg">
+      <footer className=" flex h-64 lg:h-72 px-3 bg-slate-200  rounded-t-lg">
         <div className="">
-          <p className="">Записатися на консультацію</p>
+          <p className="lg:text-xl lg:mt-4">Записатися на консультацію:</p>
 
           <address className="">
             <div className="mt-4">
               <SiViber className="fill-blue-500" />
-              <a className="mt-6" href="tel:380990569788">
+              <a className="mt-6 lg:text-xl" href="tel:380990569788">
                 +38 (099) 056-97-88
               </a>
             </div>
             <div className="mt-3">
               <SiTelegram className="text-blue-400 fill-current " />
-              <a className="" href="tel:+380969461226">
+              <a className="lg:text-xl" href="tel:+380969461226">
                 +38 (099) 056-97-88
               </a>
             </div>
             <div className="mt-3">
               <SiWhatsapp className="text-green-400 fill-current" />
-              <a className="" href="tel:+380969461226">
+              <a className="lg:text-xl" href="tel:+380969461226">
                 +38 (099) 056-97-88
               </a>
             </div>
