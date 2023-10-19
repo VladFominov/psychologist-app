@@ -12,7 +12,7 @@ const FetchCard: FC = () => {
   const openModal = (modalInfo: string | undefined): void => {
     setSelectedModalInfo(modalInfo);
   };
-  // shadow-lg p-3 mb-5 bg-white rounded
+
   return (
     <>
       {cardData.map(({ photo, title, description, index, modalInfo }) => (

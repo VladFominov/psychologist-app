@@ -1,31 +1,14 @@
-@use '../../../styles/variables.scss' as *;
-@use '../../../styles/placeholders' as *;
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/placeholders" as *;
 
-// .container { 
-//     margin: 0 auto;
-//     padding: 0 15px; 
+.contactsTitle {
+  color: #fff;
 
-//     @media screen and (min-width: $mobile){
-//         max-width: 540px;
-//     }
+  margin-top: 50px;
+}
 
-//         @media screen and (min-width: $tablet) {
-//         width: 720px;
-//         }
+.contactsSubTitle {
+  color: #fff;
 
-//         @media screen and (min-width: $desktop) {
-//             max-width: 1400px;
-//         }
-// }
-
-.contactsTitle{
-    color: #fff;
-    
-    margin-top: 50px;
-    }
-    
-    .contactsSubTitle{
-        color: #fff;
-    
-        margin-top: 30px;
-    }
+  margin-top: 30px;
+}

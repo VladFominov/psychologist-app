@@ -1,25 +1,24 @@
-@use '../../styles/placeholders' as *;
-@use '../../styles/variables.scss' as *;
+@use "../../styles/placeholders" as *;
+@use "../../styles/variables.scss" as *;
 
-.cardContainer{
-    @media screen and (min-width: $desktop) {
-        width: 340px;
-        height: 460px;
-        margin: 0;
-    }
-}
-.cardTitleStyles{
-    @extend  %default-title;
-}
+.cardContainer {
+  @media screen and (min-width: $desktop) {
+    width: 340px;
 
-.cardTextStyles{
-    @extend %default-text;
+    margin: 0;
+  }
+}
+.cardTitleStyles {
+  @extend %default-title;
 }
 
-.cardImgWrap{
-    position: relative;
-    overflow: "hidden";
-    min-height: 150px;
-    width: 100%;
-   
+.cardTextStyles {
+  @extend %default-text;
+}
+
+.cardImgWrap {
+  position: relative;
+  overflow: "hidden";
+  min-height: 150px;
+  width: 100%;
 }

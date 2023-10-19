@@ -1,18 +1,18 @@
 import React, { FC } from "react";
 import { SiWhatsapp, SiTelegram, SiViber } from "react-icons/si";
 
-import FooterImages from "./FooterImages"
+import FooterImages from "./FooterImages";
 
 const sliders = [
-  {url:'/psychologist-app/images/NPAU.jpg'},
-  {url:'/psychologist-app/images/ZSU.jpg'},
-  {url:'/psychologist-app/images/who.jpg'}
-]
+  { url: "/psychologist-app/images/NPAU.jpg" },
+  { url: "/psychologist-app/images/ZSU.jpg" },
+  { url: "/psychologist-app/images/who.jpg" },
+];
 
 const Footer: FC = () => {
   return (
     <div>
-      <footer className=" flex h-64 lg:h-72 px-3 bg-slate-200  rounded-t-lg">
+      <footer className=" flex h-64 lg: px-3 bg-slate-200  rounded-t-lg">
         <div className="">
           <p className="lg:text-xl lg:mt-4">Записатися на консультацію:</p>
 
@@ -39,7 +39,6 @@ const Footer: FC = () => {
         </div>
         <div className="relative mx-auto lg:my-auto	">
           <FooterImages footerSliders={sliders} />
-          
         </div>
       </footer>
     </div>
