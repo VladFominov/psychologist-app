@@ -2,13 +2,26 @@
 @use "../../../styles/placeholders" as *;
 
 .contactsTitle {
-  color: #fff;
-
-  margin-top: 50px;
+  color: $secondary-color;
 }
 
 .contactsSubTitle {
   color: #fff;
-
-  margin-top: 30px;
+  margin-top: 10px;
+}
+.contactOverlay {
+  position: relative;
+  max-width: 1600px;
+  height: 480px;
+  margin: 0 auto;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../../public/images/contactsBGImage.jpg");
 }

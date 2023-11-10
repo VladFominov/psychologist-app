@@ -8,7 +8,6 @@ type CarouselProps = {
 
 const Carousel = ({ diplomasImg }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  
 
   const goToPrevious = (): void => {
     const isFirstSlide = currentIndex === 0;
@@ -42,7 +41,7 @@ const Carousel = ({ diplomasImg }: CarouselProps) => {
         {diplomasImg.map((item, i) => (
           <li
             key={i}
-            className={` ${i === currentIndex ? "opacity-100"  : "opacity-0"}`}
+            className={` ${i === currentIndex ? "opacity-100" : "opacity-0"}`}
           >
             <Image
               className="object-contain"
@@ -61,54 +60,3 @@ const Carousel = ({ diplomasImg }: CarouselProps) => {
 };
 
 export default Carousel;
-
-// -------------------------------------------------------------------------------------------------------------------------------
-// import React, {FC} from 'react'
-// import Image from "next/image";
-
-// // import styles from "./_carousel.module.scss"
-
-// import diploma1 from '../../../public/images/diploma1.jpg'
-// import diploma2 from '../../../public/images/diploma2.jpg'
-// import diploma3 from '../../../public/images/diploma3.jpg'
-
-// const Carousel: FC= () => {
-//   return (
-//     <>
-// <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
-//   <ol className="carousel-indicators">
-//     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-//     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-//     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-//   </ol>
-//   <div className="carousel-inner md:h-96">
-//     <div className="carousel-item active">
-//       <div className="d-block w-100 image-container lg:w-10 lg:h-20" >
-//       <Image src={diploma1} className="object-cover h-50 w-30 "  alt="Your Image" />
-//       </div>
-//     </div>
-//     <div className="carousel-item">
-//       <div className="d-block w-100 " >
-//       <Image src={diploma2} className="object-cover h-50 w-30 lg:w-10 lg:h-20"  alt="Your Image" />
-//       </div>
-//     </div>
-//     <div className="carousel-item">
-//       <div className="d-block w-100 " >
-//       <Image src={diploma3}  className="object-cover h-50 w-30 lg:w-10 lg:h-20 "     alt="Your Image" />
-//       </div>
-//     </div>
-//   </div>
-//   <button className="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-//     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-//     <span className="sr-only">Previous</span>
-//   </button>
-//   <button className="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-//     <span className="carousel-control-next-icon" aria-hidden="true"></span>
-//     <span className="sr-only">Next</span>
-//   </button>
-// </div>
-//         </>
-//   )
-// }
-
-// export default Carousel
