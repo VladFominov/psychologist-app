@@ -3,15 +3,15 @@ import React, { FC } from "react";
 import styles from "./diploma.module.scss";
 import Carousel from "../butstrapCarousel/Carousel";
 const slides = [
-  { url: "/images/diploma1.jpg" },
-  { url: "/images/diploma2.jpg" },
-  { url: "/images/diploma3.jpg" },
-  { url: "/images/diploma4.jpg" },
-  { url: "/images/diploma5.jpg" },
-  { url: "/images/diploma6.jpg" },
-  { url: "/images/diploma7.jpg" },
-  { url: "/images/diploma8.jpg" },
-  { url: "/images/diploma9.jpg" },
+  { url: "/psychologist-app/images/diploma1.jpg" },
+  { url: "/psychologist-app/images/diploma2.jpg" },
+  { url: "/psychologist-app/images/diploma3.jpg" },
+  { url: "/psychologist-app/images/diploma4.jpg" },
+  { url: "/psychologist-app/images/diploma5.jpg" },
+  { url: "/psychologist-app/images/diploma6.jpg" },
+  { url: "/psychologist-app/images/diploma7.jpg" },
+  { url: "/psychologist-app/images/diploma8.jpg" },
+  { url: "/psychologist-app/images/diploma9.jpg" },
 ];
 // { url: "/psychologist-app/images/diploma1.jpg" },
 const Diploma: FC = () => {
