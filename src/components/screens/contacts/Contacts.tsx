@@ -7,13 +7,17 @@ const Contacts: FC = () => {
     <>
       <div className=" text-center">
         <div className={styles.contactOverlay}>
-          <div className="absolute top-12">
+          <div className="absolute top-14 md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 ">
             <h1 className={styles.contactsTitle}>
               Олексій Більський психолог аддиктолог, військовий психолог
             </h1>
             <p className={styles.contactsSubTitle}>
               Практикуючий психолог – аддиктолог.Досвід роботи 8.5 років.Магістр
               психології.
+            </p>
+            <p className={styles.contactsTitle}>
+              Працюю у напрямку Перерешенческого Транзактного Аналізу та
+              Клієнт-центрованої та експірієнтальної психотерапії
             </p>
             <h2 className={styles.contactsTitle}>
               Працюю з такими видами психологічних проблем:
@@ -28,6 +32,9 @@ const Contacts: FC = () => {
                 агресивність, перфекціонізм, залежність від чужої думки)
               </li>
               <li className={styles.contactsSubTitle}>Сепарація</li>
+              <li className={styles.contactsSubTitle}>
+                Панічні атаки, тривожні розлади
+              </li>
               <li className={styles.contactsSubTitle}>
                 Посттравматичний стресовий розлад (ПТСР)
               </li>

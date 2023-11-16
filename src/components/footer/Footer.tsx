@@ -4,17 +4,18 @@ import { SiWhatsapp, SiTelegram, SiViber } from "react-icons/si";
 import FooterImages from "./FooterImages";
 
 const sliders = [
-  { url: "/psychologist-app/images/NPAU.jpg" },
-  { url: "/psychologist-app/images/ZSU.jpg" },
-  { url: "/psychologist-app/images/who.jpg" },
+  { url: "/images/NPAU.jpg" },
+  { url: "/images/ZSU.jpg" },
+  { url: "/images/who.jpg" },
 ];
-
+//  { url: "/psychologist-app/images/NPAU.jpg" },
 const Footer: FC = () => {
   return (
-    <div>
-      <footer className=" flex h-64 lg: px-3 bg-slate-200  rounded-t-lg">
+    //
+    <footer className="min-h-[17rem] bg-slate-200  rounded-t-lg">
+      <div className="container flex justify-between  ">
         <div className="">
-          <p className="lg:text-xl lg:mt-4">Записатися на консультацію:</p>
+          <p className="mt-4 lg:text-xl lg:mt-4">Записатися на консультацію:</p>
 
           <address className="">
             <div className="mt-4">
@@ -37,11 +38,11 @@ const Footer: FC = () => {
             </div>
           </address>
         </div>
-        <div className="relative mx-auto lg:my-auto	">
+        <div className=" lg:my-auto	">
           <FooterImages footerSliders={sliders} />
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
 
