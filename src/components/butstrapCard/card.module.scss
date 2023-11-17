@@ -2,11 +2,9 @@
 @use "../../styles/variables.scss" as *;
 
 .cardContainer {
-  // @media screen and (min-width: $desktop) {
-  //   width: 340px;
-
-  //   margin: 0;
-  // }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .cardTitleStyles {
   @extend %default-title;
