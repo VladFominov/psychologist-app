@@ -1,21 +1,35 @@
-import React, { FC } from 'react'
+import React, { FC } from "react";
 
+import Layout from "@/components/layout/Layout";
+import Hero from "@/components/hero/Hero";
+import Facility from "@/components/facilitySection/Facility";
+import Diploma from "@/components/diplomaSection/Diploma";
 
-import Layout from '@/components/layout/Layout'
-import Hero from '@/components/hero/Hero'
-import Facility from '@/components/facilitySection/Facility'
-import Diploma from '@/components/diplomaSection/Diploma'
-
-
-
-const Home:FC = () => {
+const Home: FC = () => {
   return (
-    <Layout title='Home' description="Find help for your addiction from a qualified psychologist. Our services include individual and group therapy, addiction assessments, and personalized treatment plans. Contact us today to schedule an appointment">
-<Hero />
-<Facility />
-<Diploma />
+    <Layout
+      title="Психологічна допомога ПТСР Консультація депресії Лікування панічних атак Консультація при алкоголізмі"
+      description="Лікування депресії
+Консультація депресії
+Симптоми депресії
+Депресія
+Панічні атаки
+ розпізнати панічні атаки
+Лікування панічних атак
+ПТСР
+Алкоголізм
+Психологічна допомога при алкоголізмі
+Консультація при алкоголізмі
+Невпевненість в собі
+Низька самооцінка
+Як підняти самооцінку
+Як пережити розлучення"
+    >
+      <Hero />
+      <Facility />
+      <Diploma />
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

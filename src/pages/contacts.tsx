@@ -1,12 +1,13 @@
-import Layout from '@/components/layout/Layout';
-import Contacts from '@/components/screens/contacts/Contacts';
-import { NextPage } from 'next';
-
+import Layout from "@/components/layout/Layout";
+import Contacts from "@/components/screens/contacts/Contacts";
+import { NextPage } from "next";
 
 const ContactsPage: NextPage = () => {
-  return   <Layout title='Contacts'>
+  return (
+    <Layout title="Психологічна допомога ПТСР Консультація депресії Лікування панічних атак Консультація при алкоголізмі">
       <Contacts />
-    </Layout>  
-}
+    </Layout>
+  );
+};
 
 export default ContactsPage;
