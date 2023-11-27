@@ -4,9 +4,9 @@ import { SiWhatsapp, SiTelegram, SiViber } from "react-icons/si";
 import FooterImages from "./FooterImages";
 
 const sliders = [
-  { url: "/psychologist-app/images/NPAU.jpg" },
-  { url: "/psychologist-app/images/ZSU.jpg" },
-  { url: "/psychologist-app/images/who.jpg" },
+  { url: "/images/NPAU.jpg" },
+  { url: "/images/ZSU.jpg" },
+  { url: "/images/who.jpg" },
 ];
 //  { url: "/psychologist-app/images/NPAU.jpg" },
 const Footer: FC = () => {
