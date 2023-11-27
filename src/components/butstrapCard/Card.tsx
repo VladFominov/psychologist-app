@@ -31,9 +31,9 @@ const FetchCard: FC = () => {
           </div>
 
           <div className="card-body p-0 mt-3 lg:flex lg:flex-col">
-            <h5 className="card-title">
+            <h3 className="card-title">
               <span className={styles.cardTitleStyles}>{title}</span>
-            </h5>
+            </h3>
 
             <ul className="mb-2">
               {description?.map((text, textIndex) => (

@@ -3,7 +3,7 @@ import React, { FC } from "react";
 import styles from "./diploma.module.scss";
 import Carousel from "../butstrapCarousel/Carousel";
 const slides = [
-  { url: "/psychologist-app/images/diploma1.jpg" },
+  { url: "/images/diploma1.jpg" },
   { url: "/psychologist-app/images/diploma2.jpg" },
   { url: "/psychologist-app/images/diploma3.jpg" },
   { url: "/psychologist-app/images/diploma4.jpg" },
