@@ -8,6 +8,7 @@ export default function Document() {
           name="google-site-verification"
           content="t6VSTP_V7JgmvsEsWbNBAihdLn6HaHIw3YpMtOTSeaU"
         />
+        <meta name="robots" content="index, follow" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"

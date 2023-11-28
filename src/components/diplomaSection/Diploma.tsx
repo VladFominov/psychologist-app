@@ -3,15 +3,42 @@ import React, { FC } from "react";
 import styles from "./diploma.module.scss";
 import Carousel from "../butstrapCarousel/Carousel";
 const slides = [
-  { url: "/images/diploma1.jpg" },
-  { url: "/images/diploma2.jpg" },
-  { url: "/images/diploma3.jpg" },
-  { url: "/images/diploma4.jpg" },
-  { url: "/images/diploma5.jpg" },
-  { url: "/images/diploma6.jpg" },
-  { url: "/images/diploma7.jpg" },
-  { url: "/images/diploma8.jpg" },
-  { url: "/images/diploma9.jpg" },
+  {
+    url: "/images/diploma1.jpg",
+    alt: "international training & science conference ",
+  },
+  {
+    url: "/images/diploma2.jpg",
+    alt: "диплом магістра зі спеціальністю психологія",
+  },
+  {
+    url: "/images/diploma3.jpg",
+    alt: "сертифікат про закінчення курсу психологічна робота з узалежненнями - консультант адиктолог",
+  },
+  {
+    url: "/images/diploma4.jpg",
+    alt: "сертифікат про закінчення курсу психіатрія для психологів",
+  },
+  {
+    url: "/images/diploma5.jpg",
+    alt: "посвідчення про членство у ГС Національна психологічна асоціація",
+  },
+  {
+    url: "/images/diploma6.jpg",
+    alt: "сертифікат про закінчення курсу військова психологія для психолога",
+  },
+  {
+    url: "/images/diploma7.jpg",
+    alt: "сертифікат про закінчення курсу Терапія трава війни.Терапія ПТСР",
+  },
+  {
+    url: "/images/diploma8.jpg",
+    alt: "Українська спільнота транзакційного аналізу сертифікат про закінчення курсу ТА в Психотерапії",
+  },
+  {
+    url: "/images/diploma9.jpg",
+    alt: "ukrainian society of transactional analysis",
+  },
 ];
 // { url: "/psychologist-app/images/diploma1.jpg" },
 const Diploma: FC = () => {

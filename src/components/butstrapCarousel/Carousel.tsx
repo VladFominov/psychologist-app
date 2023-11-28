@@ -3,7 +3,7 @@ import Image from "next/image";
 
 // import styles from "./_carousel.module.scss"
 type CarouselProps = {
-  diplomasImg: { url: string }[];
+  diplomasImg: { url: string; alt: string }[];
 };
 
 const Carousel = ({ diplomasImg }: CarouselProps) => {
@@ -50,7 +50,7 @@ const Carousel = ({ diplomasImg }: CarouselProps) => {
               width={0}
               height={0}
               sizes="100vw"
-              alt="диплом"
+              alt={item.alt}
             />
           </li>
         ))}
