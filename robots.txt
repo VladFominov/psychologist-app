@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host directive
+Host: bilskyi-psychologist.vercel.app
+
+# Sitemap directive
+Sitemap: https://bilskyi-psychologist.vercel.app/sitemap.xml
