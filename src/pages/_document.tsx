@@ -8,6 +8,10 @@ export default function Document() {
           name="google-site-verification"
           content="t6VSTP_V7JgmvsEsWbNBAihdLn6HaHIw3YpMtOTSeaU"
         />
+        <meta
+          name="google-site-verification"
+          content="357K7fHP8jV2xDV7fwFVslZ7we6LM-AEF_fN-n-RpBk"
+        />
         <meta name="robots" content="index, follow" />
         <link
           rel="stylesheet"

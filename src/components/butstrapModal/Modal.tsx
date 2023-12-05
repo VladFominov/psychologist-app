@@ -78,7 +78,6 @@ const Modal: FC<ModalProps> = ({ modalInfo, onClose }) => {
               </p>
             </div>
             <div className="modal-footer">
-              {/* <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={() => setIsModalOpen(false)}>Закрити</button> */}
               <button
                 type="button"
                 className="btn bg-success text-white "
